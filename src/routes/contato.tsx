@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { z } from "zod";
-import { Mail, MessageCircle, Clock } from "lucide-react";
+import { MessageCircle, Clock } from "lucide-react";
 import { services } from "../content/services";
 
 export const Route = createFileRoute("/contato")({
@@ -23,8 +23,8 @@ export const Route = createFileRoute("/contato")({
   component: Contato,
 });
 
-const CONTACT_EMAIL = "contato@francielicampos.com.br";
-const WHATSAPP_NUMBER = "5500000000000";
+const WHATSAPP_NUMBER = "5514988294067";
+const WHATSAPP_DISPLAY = "(14) 98829-4067";
 
 const schema = z.object({
   name: z
@@ -109,19 +109,18 @@ function Contato() {
 
           <ul className="mt-10 space-y-5 text-sm">
             <li className="flex items-start gap-3">
-              <MessageCircle className="mt-0.5 size-4 text-clay" />
-              <span className="text-muted-foreground">
-                WhatsApp para dúvidas rápidas e alinhamentos
-              </span>
-            </li>
-            <li className="flex items-start gap-3">
-              <Mail className="mt-0.5 size-4 text-clay" />
-              <a href={`mailto:${CONTACT_EMAIL}`} className="text-muted-foreground hover:text-foreground">
-                {CONTACT_EMAIL}
+              <MessageCircle className="mt-0.5 size-4 text-primary" />
+              <a
+                href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground"
+              >
+                WhatsApp {WHATSAPP_DISPLAY}
               </a>
             </li>
             <li className="flex items-start gap-3">
-              <Clock className="mt-0.5 size-4 text-clay" />
+              <Clock className="mt-0.5 size-4 text-primary" />
               <span className="text-muted-foreground">
                 Atendimento remoto, segunda a sexta, 9h às 18h
               </span>
@@ -176,8 +175,8 @@ function Contato() {
 
           {sent && (
             <p className="mt-4 text-sm text-primary">
-              Mensagem preparada no WhatsApp. Se a janela não abriu, envie um e-mail para{" "}
-              {CONTACT_EMAIL}.
+              Mensagem preparada no WhatsApp. Se a janela não abriu, chame direto no{" "}
+              {WHATSAPP_DISPLAY}.
             </p>
           )}
         </form>

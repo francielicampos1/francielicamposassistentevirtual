@@ -1,15 +1,24 @@
 import { Link } from "@tanstack/react-router";
+import wordmark from "../assets/logo-wordmark.png.asset.json";
 
 export function SiteFooter() {
   return (
     <footer className="mt-24 border-t border-border/70 bg-secondary/50">
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-12 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="font-display text-xl">Francieli Campos</p>
+          <img
+            src={wordmark.url}
+            alt="Francieli Campos — Assistente Administrativa Remota"
+            width={900}
+            height={220}
+            loading="lazy"
+            className="h-14 w-auto object-contain"
+          />
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
             Apoio administrativo remoto para quem quer voltar a cuidar do próprio negócio.
           </p>
         </div>
+
         <div className="flex flex-col gap-2 text-sm text-muted-foreground sm:items-end">
           <Link to="/servicos" className="hover:text-foreground">
             Serviços
