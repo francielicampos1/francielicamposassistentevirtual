@@ -22,6 +22,29 @@ export const Route = createFileRoute("/")({
         content:
           "Tire a operação administrativa das suas costas. Apoio remoto, organizado e discreto para o seu negócio.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:url",
+        content: "https://francielicamposassistentevirtual.lovable.app/",
+      },
+    ],
+    links: [
+      { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          name: "Francieli Campos - Assistente Administrativa Remota",
+          url: "https://francielicamposassistentevirtual.lovable.app/",
+          telephone: "+5514988294067",
+          areaServed: "Brasil",
+          availableLanguage: "pt-BR",
+        }),
+      },
     ],
   }),
   component: Home,
