@@ -15,9 +15,17 @@ export const Route = createFileRoute("/sobre")({
         property: "og:description",
         content: "Método, discrição e proximidade no apoio administrativo remoto.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:url",
+        content: "https://francielicamposassistentevirtual.lovable.app/sobre",
+      },
+    ],
+    links: [
+      { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/sobre" },
     ],
   }),
-  component: Sobre,
 });
 
 const values = [
