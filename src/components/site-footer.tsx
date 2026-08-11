@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "../assets/logo-francieli.png.asset.json";
+import wordmark from "../assets/logo-wordmark.png.asset.json";
 
 export function SiteFooter() {
   return (
@@ -7,14 +7,13 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-5 py-12 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <img
-            src={logo.url}
-            alt="Logo Francieli Campos"
-            width={56}
-            height={56}
+            src={wordmark.url}
+            alt="Francieli Campos — Assistente Administrativa Remota"
+            width={900}
+            height={220}
             loading="lazy"
-            className="size-14 object-contain"
+            className="h-14 w-auto object-contain"
           />
-          <p className="mt-3 font-display text-xl">Francieli Campos</p>
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
             Apoio administrativo remoto para quem quer voltar a cuidar do próprio negócio.
           </p>

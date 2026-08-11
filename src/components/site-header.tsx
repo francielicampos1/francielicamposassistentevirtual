@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../assets/logo-francieli.png.asset.json";
+import mark from "../assets/logo-mark.png.asset.json";
 
 const links = [
   { to: "/", label: "Início" },
@@ -17,7 +17,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/85 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-4">
         <Link to="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <img src={logo.url} alt="Logo Francieli Campos" width={40} height={40} className="size-10 object-contain" />
+          <img src={mark.url} alt="Logo Francieli Campos" width={40} height={40} className="size-10 object-contain" />
           <span className="leading-tight">
             <span className="block font-display text-lg tracking-tight">Francieli Campos</span>
             <span className="eyebrow block text-[0.6rem]">Assistente Administrativa Remota</span>
