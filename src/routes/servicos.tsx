@@ -17,6 +17,15 @@ export const Route = createFileRoute("/servicos")({
         content:
           "Escopo completo de apoio administrativo remoto, com pacotes de horas ou mensalidade.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:url",
+        content: "https://francielicamposassistentevirtual.lovable.app/servicos",
+      },
+    ],
+    links: [
+      { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/servicos" },
     ],
   }),
   component: Servicos,
