@@ -18,6 +18,15 @@ export const Route = createFileRoute("/contato")({
         property: "og:description",
         content: "Envie sua necessidade e receba uma proposta de apoio administrativo remoto.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        property: "og:url",
+        content: "https://francielicamposassistentevirtual.lovable.app/contato",
+      },
+    ],
+    links: [
+      { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/contato" },
     ],
   }),
   component: Contato,
