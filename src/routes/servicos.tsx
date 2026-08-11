@@ -19,7 +19,7 @@ export const Route = createFileRoute("/servicos")({
       },
     ],
   }),
-  component: Servicos;
+  component: Servicos,
 });
 
 function Servicos() {
