@@ -113,20 +113,28 @@ function Contato() {
           </h1>
           <p className="mt-6 text-base leading-relaxed text-muted-foreground">
             Responda o formulário e sua mensagem já sai pronta no WhatsApp. Retorno em até 24 horas
-            em dias úteis com uma proposta objetiva.
+            com uma proposta objetiva.
           </p>
 
           <ul className="mt-10 space-y-5 text-sm">
             <li className="flex items-start gap-3">
               <MessageCircle className="mt-0.5 size-4 text-primary" />
-              <a
-                href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-muted-foreground hover:text-foreground"
-              >
-                WhatsApp {WHATSAPP_DISPLAY}
-              </a>
+              <div className="flex flex-col text-muted-foreground">
+                <a
+                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-foreground"
+                >
+                  WhatsApp {WHATSAPP_DISPLAY}
+                </a>
+                <a
+                  href="mailto:francielicampos1@gmail.com"
+                  className="mt-1 hover:text-foreground"
+                >
+                  Email: francielicampos1@gmail.com
+                </a>
+              </div>
             </li>
             <li className="flex items-start gap-3">
               <Clock className="mt-0.5 size-4 text-primary" />
