@@ -8,7 +8,7 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Conheça a forma de trabalho por trás do apoio administrativo remoto: método, discrição e proximidade com cada cliente.",
+          "14 anos de experiência em rotinas administrativas, atendimento ao cliente e organização documental. Conheça a forma de trabalho por trás do apoio administrativo remoto.",
       },
       { property: "og:title", content: "Sobre | Francieli Campos" },
       {
@@ -55,15 +55,17 @@ function Sobre() {
           </h1>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
             <p>
-              Trabalho como assistente administrativa remota apoiando profissionais e pequenas
-              empresas que cresceram mais rápido do que a própria estrutura. Documentos espalhados,
-              agenda cheia de conflitos, cobranças atrasadas e propostas sem resposta: é aí que eu
-              entro.
+              Sou assistente administrativa remota com 14 anos de experiência em rotinas
+              administrativas, atendimento ao cliente e organização documental.
             </p>
             <p>
-              Minha função não é apenas executar tarefas, é criar processo. Cada rotina que assumo
-              passa a ter um lugar definido, um responsável e um registro — para que a operação
-              continue funcionando mesmo quando o dia foge do controle.
+              Apoio profissionais e pequenos negócios que precisam de ordem no dia a dia: documentos
+              espalhados, agenda cheia de conflitos, cobranças atrasadas e propostas sem resposta —
+              é aí que eu entro.
+            </p>
+            <p>
+              Minha função não é apenas executar tarefas, é criar processo — e te ajudar a ter mais
+              tempo para o que importa: fazer sua empresa crescer.
             </p>
             <p>
               O atendimento é próximo e limitado a poucos clientes por vez, justamente para manter a
