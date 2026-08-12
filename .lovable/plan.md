@@ -11,9 +11,14 @@ Hoje essa frente tem só o resumo curto "Presença digital ativa" e uma lista ge
 1. Organização e atualização do CRM ou planilha de oportunidades
 2. Elaboração e envio de propostas e orçamentos
 3. Follow-up de propostas: nada esfria por falta de retorno
-4. Agendamento de publicações e resposta a comentários e mensagens
-5. Listas de contatos e envio de campanhas simples (WhatsApp e e-mail)
-6. Relatório simples de contatos, propostas e fechamentos do mês
+4. Elaboração de legendas e agendamento de posts nas redes sociais
+5. Resposta a comentários e mensagens nas redes sociais
+6. Listas de contatos e envio de campanhas simples (WhatsApp e e-mail)
+7. Relatório simples de contatos, propostas e fechamentos do mês
+
+## Observação importante: "elaboração de posts"
+
+Entende-se como **roteiro e legenda** para o cliente aprovar e publicar. Não inclui criação de imagens, reels, edição de vídeo ou gestão de tráfego pago — esse trabalho é de agência/designer. O valor aqui é manter a rede ativa, responder com agilidade e não deixar leads esfriarem.
 
 ## Alternativa de tom (mais direta)
 
