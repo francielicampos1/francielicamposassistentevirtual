@@ -121,18 +121,16 @@ function Contato() {
               <MessageCircle className="mt-0.5 size-4 text-primary" />
               <div className="flex flex-col text-muted-foreground">
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:Francielicamposs.assistente@gmail.com"
                   className="hover:text-foreground"
                 >
                   WhatsApp {WHATSAPP_DISPLAY}
                 </a>
                 <a
-                  href="mailto:francielicampos1@gmail.com"
+                  href="mailto:Francielicamposs.assistente@gmail.com"
                   className="mt-1 hover:text-foreground"
                 >
-                  Email: francielicampos1@gmail.com
+                  Email: Francielicamposs.assistente@gmail.com
                 </a>
               </div>
             </li>
