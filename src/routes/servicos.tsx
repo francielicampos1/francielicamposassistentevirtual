@@ -63,12 +63,8 @@ function Servicos() {
         ))}
       </div>
 
-      <div className="mt-20 grid gap-px bg-border sm:grid-cols-3">
+      <div className="mt-20 grid gap-px bg-border sm:grid-cols-2">
         {[
-          {
-            t: "Pacote de horas",
-            d: "Ideal para demandas pontuais. Horas contratadas e usadas conforme a necessidade.",
-          },
           {
             t: "Mensalidade",
             d: "Rotina recorrente com escopo fixo, relatórios e disponibilidade combinada.",
