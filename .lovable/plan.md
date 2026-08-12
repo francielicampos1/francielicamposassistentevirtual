@@ -1,31 +1,33 @@
-# Nova redação: Apoio comercial e mídias
+# Página Sobre: publicada e desatualizada?
 
-Hoje essa frente tem só o resumo curto "Presença digital ativa" e uma lista genérica. A proposta é dar a ela o mesmo peso das outras três, deixando claro o que você entrega — sem prometer o que é trabalho de agência (design, tráfego pago, produção de vídeo).
+## O que eu verifiquei agora
 
-## Resumo (aparece na home e em Serviços)
+Baixei o HTML do site no ar (`/sobre`) e ele já contém o conteúdo atual do projeto: o título "Prazer, sou Francieli. Organizo o que trava o seu dia.", os três textos de apresentação e o bloco de valores (Confidencialidade, Clareza, Autonomia).
 
-"Oportunidades acompanhadas de perto e presença digital constante: nenhuma proposta esfria e seu perfil não fica parado."
+Ou seja: o servidor está entregando a versão nova. O que você vê de antigo é, com alta probabilidade, cache do seu navegador/celular.
 
-## Itens da frente
+## Passo 1 — confirmar que é cache (você faz, 10 segundos)
 
-1. Organização e atualização do CRM ou planilha de oportunidades
-2. Elaboração e envio de propostas e orçamentos
-3. Follow-up de propostas: nada esfria por falta de retorno
-4. Elaboração de legendas e agendamento de posts nas redes sociais
-5. Resposta a comentários e mensagens nas redes sociais
-6. Listas de contatos e envio de campanhas simples (WhatsApp e e-mail)
-7. Relatório simples de contatos, propostas e fechamentos do mês
+- No computador: abrir a página e apertar Ctrl+F5 (ou Cmd+Shift+R no Mac).
+- No celular: abrir o link numa janela anônima/privada.
 
-## Observação importante: "elaboração de posts"
+Se aparecer atualizado, era cache e não há nada a corrigir no site.
 
-Entende-se como **roteiro e legenda** para o cliente aprovar e publicar. Não inclui criação de imagens, reels, edição de vídeo ou gestão de tráfego pago — esse trabalho é de agência/designer. O valor aqui é manter a rede ativa, responder com agilidade e não deixar leads esfriarem.
+## Passo 2 — se ainda aparecer antigo
 
-## Alternativa de tom (mais direta)
+Me diga qual trecho exato você vê de errado na tela (uma frase que aparece e não deveria). Com essa frase eu localizo de onde ela vem no projeto e corrijo. Também republico o site para garantir que a última versão esteja no ar.
 
-Resumo: "Seu comercial com memória: cada contato registrado, cada proposta com retorno, cada rede social ativa."
+## Passo 3 — melhorar a página Sobre (opcional, se o que você quer é conteúdo novo)
+
+Se a sensação de "desatualizada" é porque o texto não reflete mais o seu momento, eu atualizo:
+
+- Incluir os **14 anos de experiência** na abertura (hoje só aparece na home).
+- Trocar a frase de apresentação por uma versão mais direta, alinhada ao rodapé: "Eu cuido da parte administrativa, pra você cuidar do seu negócio".
+- Mencionar as 4 frentes de apoio com link para a página de Serviços.
+- Adicionar WhatsApp e e-mail no bloco final, além do botão "Conversar comigo".
 
 ## Detalhes técnicos
 
-- Editar o item `number: "04"` em `src/content/services.ts` (campos `summary` e `items`).
-- Nenhuma mudança de layout: a home mostra os 4 primeiros itens, a página Serviços mostra todos.
-- Ajustar a meta description de `/servicos` para citar apoio comercial e mídias.
+- Conteúdo da página vive em `src/routes/sobre.tsx` (texto e array `values`), sem dependência de banco.
+- HTML publicado conferido via requisição direta ao domínio: conteúdo atual presente.
+- Após qualquer ajuste, é preciso publicar novamente para o site no ar refletir a mudança.
