@@ -10,12 +10,12 @@ export const services: Service[] = [
     number: "01",
     title: "Rotinas administrativas",
     summary:
-      "A base da operação em ordem: documentos onde deveriam estar e informação pronta para decidir.",
+      "A base da operação em ordem: documentos organizados e informação pronta para decidir.",
     items: [
       "Organização e digitalização de documentos",
       "Planilhas de controle e relatórios periódicos",
-      "Cadastros, contratos e arquivos de clientes",
-      "Padronização de processos e checklists",
+      "\n\nCadastros, contratos e arquivos de clientes",
+      "\n",
       "Compras e pedidos recorrentes",
     ],
   },
@@ -23,12 +23,12 @@ export const services: Service[] = [
     number: "02",
     title: "Agenda e atendimento",
     summary:
-      "Ninguém fica sem resposta e sua agenda deixa de ser um campo minado de conflitos.",
+      "Comunicação humanizada e assertiva:\nSua empresa bem representada em cada atendimento.",
     items: [
-      "Gestão de agenda e confirmação de compromissos",
-      "Triagem de e-mails e caixa de entrada organizada",
+      "Gestão de agenda e compromissos ",
+      "Triagem de e-mails e retorno ágil",
       "Atendimento por WhatsApp e retorno de contatos",
-      "Agendamento e remarcação de clientes",
+      "Agendamento e acompanhamento de solicitações",
       "Lembretes e follow-up de retornos",
     ],
   },
@@ -38,7 +38,7 @@ export const services: Service[] = [
     summary:
       "Controle das entradas e saídas com acompanhamento próximo, sem substituir sua contabilidade.",
     items: [
-      "Emissão de notas fiscais de serviço",
+      "Emissão de notas fiscais ",
       "Contas a pagar e a receber",
       "Conciliação bancária simples",
       "Cobrança e envio de boletos",
