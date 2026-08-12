@@ -129,10 +129,10 @@ function Contato() {
                   WhatsApp {WHATSAPP_DISPLAY}
                 </a>
                 <a
-                  href="mailto:francielicampos1@gmail.com"
+                  href="mailto:Francielicamposs.assistente@gmail.com"
                   className="mt-1 hover:text-foreground"
                 >
-                  Email: francielicampos1@gmail.com
+                  Email: Francielicamposs.assistente@gmail.com
                 </a>
               </div>
             </li>
