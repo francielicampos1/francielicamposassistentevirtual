@@ -52,7 +52,6 @@ export const services: Service[] = [
       "Organização e atualização do CRM",
       "Follow-up de propostas e orçamentos",
       "Elaboração e envio de propostas comerciais",
-      "Agendamento de posts e resposta a comentários",
       "Listas de contatos e campanhas simples",
     ],
   },
