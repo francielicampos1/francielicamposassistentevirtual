@@ -38,7 +38,7 @@ export const services: Service[] = [
     summary:
       "Controle das entradas e saídas com acompanhamento próximo, sem substituir sua contabilidade.",
     items: [
-      "Emissão de notas fiscais ",
+      "Emissão de notas fiscais e faturamento",
       "Contas a pagar e a receber",
       "Conciliação bancária simples",
       "Cobrança e envio de boletos",
@@ -48,8 +48,7 @@ export const services: Service[] = [
   {
     number: "04",
     title: "Apoio comercial e mídias",
-    summary:
-      "Propostas que não esfriam e presença digital ativa, com registro de cada oportunidade.",
+    summary: "Presença digital ativa\u00a0",
     items: [
       "Organização e atualização do CRM",
       "Follow-up de propostas e orçamentos",

@@ -15,7 +15,7 @@ export function SiteFooter() {
             className="h-14 w-auto object-contain"
           />
           <p className="mt-1 max-w-sm text-sm text-muted-foreground">
-            Apoio administrativo remoto para quem quer voltar a cuidar do próprio negócio.
+            . Eu cuido da parte administrativa, pra você cuidar do seu negócio. 
           </p>
         </div>
 
