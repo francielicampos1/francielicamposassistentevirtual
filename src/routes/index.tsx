@@ -67,7 +67,7 @@ function Home() {
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             Cuido dos processos que consomem seu dia — documentos, agenda, cobranças, atendimento
-            e follow-up — para que você volte a se dedicar ao que faz seu negócio crescer.
+            e follow-up — para que você se dedique ao que faz seu negócio crescer.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <Link
@@ -155,7 +155,7 @@ function Home() {
               },
               {
                 t: "Proposta sob medida",
-                d: "Escolhemos as frentes de apoio e o formato: pacote de horas ou mensalidade.",
+                d: "Escolhemos as frentes de apoio e o formato: pontual, semanal ou mensal.",
               },
               {
                 t: "Organização e entrega",
