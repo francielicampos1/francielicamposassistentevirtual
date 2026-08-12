@@ -52,7 +52,7 @@ export const Route = createFileRoute("/")({
 
 const numbers = [
   { value: "100%", label: "Atendimento remoto" },
-  { value: "24h", label: "Resposta a solicitações" },
+  { value: "14 anos de experiência ", label: "Sigilo e confiança para o seu negócio" },
   { value: "4", label: "Frentes de apoio" },
 ];
 
