@@ -26,6 +26,7 @@ export const Route = createFileRoute("/sobre")({
       { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/sobre" },
     ],
   }),
+  component: Sobre,
 });
 
 const values = [

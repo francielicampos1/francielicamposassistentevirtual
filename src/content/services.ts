@@ -14,8 +14,7 @@ export const services: Service[] = [
     items: [
       "Organização e digitalização de documentos",
       "Planilhas de controle e relatórios periódicos",
-      "\n\nCadastros, contratos e arquivos de clientes",
-      "\n",
+      "Cadastros, contratos e arquivos de clientes",
       "Compras e pedidos recorrentes",
     ],
   },
@@ -48,7 +47,7 @@ export const services: Service[] = [
   {
     number: "04",
     title: "Apoio comercial e mídias",
-    summary: "Presença digital ativa\u00a0",
+    summary: "Presença digital ativa",
     items: [
       "Organização e atualização do CRM",
       "Follow-up de propostas e orçamentos",
