@@ -53,7 +53,7 @@ export const Route = createFileRoute("/")({
 const numbers = [
   { value: "100%", label: "Atendimento remoto" },
   { value: "14 anos de experiência ", label: "Sigilo e confiança para o seu negócio" },
-  { value: "                4", label: "                    Frentes de apoio" },
+  { value: "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 4", label: "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Frentes de apoio" },
 ];
 
 function Home() {
@@ -94,8 +94,8 @@ function Home() {
             className="w-full object-cover"
           />
           <div className="absolute -bottom-6 left-6 hidden bg-background px-6 py-4 shadow-soft sm:block">
-            <p className="font-display text-lg">Discrição e método</p>
-            <p className="text-xs text-muted-foreground">Processos documentados, nada solto.</p>
+            <p className="font-display text-lg">Menos burocracia</p>
+            <p className="text-xs text-muted-foreground">mais tempo para crescer</p>
           </div>
         </div>
       </section>
