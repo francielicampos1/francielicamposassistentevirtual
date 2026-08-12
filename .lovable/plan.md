@@ -10,7 +10,7 @@ Sai a frase "profissionais e pequenas empresas que cresceram mais rápido do que
 "Apoio profissionais e pequenos negócios que precisam de ordem no dia a dia: documentos espalhados, agenda cheia de conflitos, cobranças atrasadas e propostas sem resposta — é aí que eu entro."
 
 **Parágrafo 3 (mantido, com ajuste leve):**
-"Minha função não é apenas executar tarefas, é criar processo — e te ajudar a ter mais tempo para o que importa: fazer sua empresa crescer. Cada rotina que assumo passa a ter um lugar definido, um responsável e um registro."
+"Minha função não é apenas executar tarefas, é criar processo — e te ajudar a ter mais tempo para o que importa: fazer sua empresa crescer."
 
 **Parágrafo 4 (mantido):**
 Atendimento próximo, limitado a poucos clientes por vez.
