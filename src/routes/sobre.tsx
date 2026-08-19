@@ -94,7 +94,7 @@ function Sobre() {
 
       <div className="mt-16 border-t border-border pt-10">
         <p className="max-w-2xl font-display text-2xl leading-snug">
-          “Delegar bem começa com organização. É isso que eu entrego antes de qualquer tarefa.”
+          O que você deixou de vender, atender ou produzir essa semana por causa da papelada? E pensar que dava pra ter resolvido isso terceirizando — sem CLT, sem encargo, e ainda mais barato.
         </p>
         <Link
           to="/contato"
