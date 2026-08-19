@@ -116,9 +116,10 @@ function Home() {
         <h2 className="mt-4 max-w-2xl text-3xl sm:text-4xl">
           Quatro frentes de apoio, combinadas do jeito que o seu negócio precisa.
         </h2>
-        <div className="mt-12 grid gap-px bg-border sm:grid-cols-2">
+        <div className="mt-12 grid gap-px bg-border sm:grid-cols-2 sm:grid-rows-2">
           {services.map((s) => (
-            <article key={s.title} className="bg-background p-8">
+            <article key={s.title} className="flex flex-col bg-background p-8">
+
               <p className="font-display text-2xl text-primary">{s.number}</p>
               <h3 className="mt-4 text-xl">{s.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.summary}</p>
