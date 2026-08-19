@@ -52,8 +52,9 @@ export const Route = createFileRoute("/")({
 
 const numbers = [
   { value: "100%", label: "Atendimento remoto" },
-  { value: "14 anos de experiência ", label: "Sigilo e confiança para o seu negócio" },
-  { value: "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0 4", label: "\u00a0 \u00a0 \u00a0 \u00a0 \u00a0 \u00a0Frentes de apoio" },
+  { value: "14 anos de experiência", label: "Sigilo e confiança para o seu negócio" },
+  { value: "4", label: "Frentes de apoio" },
+
 ];
 
 function Home() {
@@ -101,7 +102,8 @@ function Home() {
       </section>
 
       <section className="border-y border-border/70 bg-secondary/50">
-        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 sm:grid-cols-3">
+        <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 text-center sm:grid-cols-3">
+
           {numbers.map((n) => (
             <div key={n.label}>
               <p className="font-display text-3xl">{n.value}</p>
