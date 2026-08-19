@@ -8,6 +8,19 @@ export type Service = {
 export const services: Service[] = [
   {
     number: "01",
+    title: "Financeiro de apoio",
+    summary:
+      "Controle das entradas e saídas com acompanhamento próximo, sem substituir sua contabilidade.",
+    items: [
+      "Emissão de notas fiscais e faturamento",
+      "Contas a pagar e a receber",
+      "Conciliação bancária simples",
+      "Cobrança e envio de boletos",
+      "Relatório mensal de movimentação",
+    ],
+  },
+  {
+    number: "02",
     title: "Rotinas administrativas",
     summary:
       "A base da operação em ordem: documentos organizados e informação pronta para decidir.",
@@ -19,7 +32,7 @@ export const services: Service[] = [
     ],
   },
   {
-    number: "02",
+    number: "03",
     title: "Agenda e atendimento",
     summary:
       "Comunicação humanizada e assertiva:\nSua empresa bem representada em cada atendimento.",
@@ -29,19 +42,6 @@ export const services: Service[] = [
       "Atendimento por WhatsApp e retorno de contatos",
       "Agendamento e acompanhamento de solicitações",
       "Lembretes e follow-up de retornos",
-    ],
-  },
-  {
-    number: "03",
-    title: "Financeiro de apoio",
-    summary:
-      "Controle das entradas e saídas com acompanhamento próximo, sem substituir sua contabilidade.",
-    items: [
-      "Emissão de notas fiscais e faturamento",
-      "Contas a pagar e a receber",
-      "Conciliação bancária simples",
-      "Cobrança e envio de boletos",
-      "Relatório mensal de movimentação",
     ],
   },
   {
