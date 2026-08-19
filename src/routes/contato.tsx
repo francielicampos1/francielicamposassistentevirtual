@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { z } from "zod";
-import { MessageCircle, Clock } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 import { services } from "../content/services";
 
 export const Route = createFileRoute("/contato")({
@@ -135,12 +135,6 @@ function Contato() {
                   Email: Francielicamposs.assistente@gmail.com
                 </a>
               </div>
-            </li>
-            <li className="flex items-start gap-3">
-              <Clock className="mt-0.5 size-4 text-primary" />
-              <span className="text-muted-foreground">
-                Atendimento remoto, segunda a sexta, 9h às 18h
-              </span>
             </li>
           </ul>
         </div>
