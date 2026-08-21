@@ -66,6 +66,9 @@ function Home() {
           <h1 className="mt-5 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">
             Sua rotina administrativa organizada, sem precisar contratar mais ninguém.
           </h1>
+          <p className="mt-4 text-sm text-muted-foreground">
+            Pra pequenas indústrias e fábricas que ainda não têm administrativo próprio.
+          </p>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             Cuido dos processos que consomem seu dia — documentos, agenda, cobranças, atendimento
             e follow-up — para que você se dedique ao que faz seu negócio crescer.
