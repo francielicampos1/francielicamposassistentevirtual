@@ -71,14 +71,12 @@ function Home() {
             e follow-up — para que você se dedique ao que faz seu negócio crescer.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a
-              href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/contato"
               className="inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground transition-opacity hover:opacity-90"
             >
               Pedir orçamento <ArrowRight className="size-4" />
-            </a>
+            </Link>
             <Link
               to="/servicos"
               className="text-sm text-muted-foreground underline decoration-clay decoration-2 underline-offset-4 hover:text-foreground"
@@ -120,7 +118,6 @@ function Home() {
         <h2 className="mt-4 max-w-2xl text-3xl sm:text-4xl">
           Quatro frentes de apoio, combinadas do jeito que o seu negócio precisa.
         </h2>
-        <p className="mt-3 text-sm text-muted-foreground">Sem CLT e sem encargos.</p>
         <div className="mt-12 grid gap-px bg-border sm:grid-cols-2 sm:grid-rows-2">
           {services.map((s) => (
             <article key={s.title} className="flex flex-col bg-background p-8">
@@ -188,14 +185,12 @@ function Home() {
           <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
             Conte o que está travando a sua rotina e eu respondo com uma proposta objetiva.
           </p>
-          <a
-            href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contato"
             className="mt-8 inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground"
           >
             Falar com a Francieli <ArrowRight className="size-4" />
-          </a>
+          </Link>
         </div>
       </section>
     </>
