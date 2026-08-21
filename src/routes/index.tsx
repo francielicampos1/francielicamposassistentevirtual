@@ -71,12 +71,14 @@ function Home() {
             e follow-up — para que você se dedique ao que faz seu negócio crescer.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <Link
-              to="/contato"
+            <a
+              href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground transition-opacity hover:opacity-90"
             >
               Pedir orçamento <ArrowRight className="size-4" />
-            </Link>
+            </a>
             <Link
               to="/servicos"
               className="text-sm text-muted-foreground underline decoration-clay decoration-2 underline-offset-4 hover:text-foreground"
@@ -186,12 +188,14 @@ function Home() {
           <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
             Conte o que está travando a sua rotina e eu respondo com uma proposta objetiva.
           </p>
-          <Link
-            to="/contato"
+          <a
+            href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-8 inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground"
           >
             Falar com a Francieli <ArrowRight className="size-4" />
-          </Link>
+          </a>
         </div>
       </section>
     </>
