@@ -64,7 +64,10 @@ function Home() {
         <div>
           <p className="eyebrow">Assistência administrativa remota</p>
           <h1 className="mt-5 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">
-            Sua rotina administrativa organizada, sem precisar contratar mais ninguém.
+            <span className="block font-bold">Suporte administrativo</span>
+            <span className="block text-[0.9em] font-bold leading-[1.1]">
+              sem precisar contratar um funcionário CLT.
+            </span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             Cuido dos processos que consomem seu dia — documentos, agenda, cobranças, atendimento
