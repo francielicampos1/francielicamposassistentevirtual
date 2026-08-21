@@ -66,22 +66,17 @@ function Home() {
           <h1 className="mt-5 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">
             Sua rotina administrativa organizada, sem precisar contratar mais ninguém.
           </h1>
-          <p className="mt-4 text-sm text-muted-foreground">
-            Pra pequenas indústrias e fábricas que ainda não têm administrativo próprio.
-          </p>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
             Cuido dos processos que consomem seu dia — documentos, agenda, cobranças, atendimento
             e follow-up — para que você se dedique ao que faz seu negócio crescer.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a
-              href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/contato"
               className="inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground transition-opacity hover:opacity-90"
             >
               Pedir orçamento <ArrowRight className="size-4" />
-            </a>
+            </Link>
             <Link
               to="/servicos"
               className="text-sm text-muted-foreground underline decoration-clay decoration-2 underline-offset-4 hover:text-foreground"
@@ -191,14 +186,12 @@ function Home() {
           <p className="mx-auto mt-4 max-w-xl text-sm text-muted-foreground">
             Conte o que está travando a sua rotina e eu respondo com uma proposta objetiva.
           </p>
-          <a
-            href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/contato"
             className="mt-8 inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground"
           >
             Falar com a Francieli <ArrowRight className="size-4" />
-          </a>
+          </Link>
         </div>
       </section>
     </>
