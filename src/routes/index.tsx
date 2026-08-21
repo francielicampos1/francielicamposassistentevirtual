@@ -118,6 +118,7 @@ function Home() {
         <h2 className="mt-4 max-w-2xl text-3xl sm:text-4xl">
           Quatro frentes de apoio, combinadas do jeito que o seu negócio precisa.
         </h2>
+        <p className="mt-3 text-sm text-muted-foreground">Sem CLT e sem encargos.</p>
         <div className="mt-12 grid gap-px bg-border sm:grid-cols-2 sm:grid-rows-2">
           {services.map((s) => (
             <article key={s.title} className="flex flex-col bg-background p-8">
