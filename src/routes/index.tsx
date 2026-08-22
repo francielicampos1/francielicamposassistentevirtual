@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
+import wordmark from "../assets/logo-wordmark.png.asset.json";
 import heroOffice from "../assets/hero-office.jpg";
 import portraitWork from "../assets/portrait-work.jpg";
 import { services } from "../content/services";
@@ -60,7 +61,17 @@ const numbers = [
 function Home() {
   return (
     <>
-      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-14 lg:grid-cols-[1.05fr_1fr] lg:pb-24 lg:pt-20">
+      <section className="mx-auto flex max-w-6xl justify-center px-5 py-12 sm:py-16">
+        <img
+          src={wordmark.url}
+          alt="Francieli Campos — Assistente Administrativa Remota"
+          width={900}
+          height={220}
+          className="h-24 w-auto object-contain sm:h-28 lg:h-[120px]"
+        />
+      </section>
+
+      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-4 lg:grid-cols-[1.05fr_1fr] lg:pb-24 lg:pt-6">
         <div>
           <p className="eyebrow">Assistência administrativa remota</p>
           <h1 className="mt-5 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">
