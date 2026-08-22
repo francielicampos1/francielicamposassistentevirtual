@@ -37,12 +37,14 @@ export function SiteHeader() {
               {l.label}
             </Link>
           ))}
-          <Link
-            to="/contato"
+          <a
+            href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
+            target="_blank"
+            rel="noopener noreferrer"
             className="border border-foreground/80 px-4 py-2 text-xs uppercase tracking-[0.16em] text-foreground transition-colors hover:bg-foreground hover:text-primary-foreground"
           >
             Pedir orçamento
-          </Link>
+          </a>
         </nav>
 
         <button
