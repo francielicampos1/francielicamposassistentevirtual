@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
-import wordmark from "../assets/logo-wordmark.png.asset.json";
+import wordmark from "../assets/logo-wordmark.png";
 import heroOffice from "../assets/hero-office.jpg";
 import portraitWork from "../assets/portrait-work.jpg";
 import { services } from "../content/services";
@@ -63,10 +63,10 @@ function Home() {
     <>
       <section className="mx-auto flex max-w-6xl justify-center px-5 py-12 sm:py-14 lg:py-16">
         <img
-          src={wordmark.url}
+          src={wordmark}
           alt="Francieli Campos — Assistente Administrativa Remota"
-          width={900}
-          height={220}
+          width={1024}
+          height={728}
           className="h-28 w-auto object-contain sm:h-40 md:h-52 lg:h-72"
         />
       </section>
