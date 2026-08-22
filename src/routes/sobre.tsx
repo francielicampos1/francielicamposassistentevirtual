@@ -55,38 +55,34 @@ function Sobre() {
           </h1>
           <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
             <p>
-              Sou assistente administrativa remota com 14 anos de experiência em rotinas
-              administrativas, atendimento ao cliente e organização documental.
+              Entrei na área administrativa em 2006, no curso técnico de Rotinas Administrativas.
+              Desde 2012, sou responsável pelo administrativo de uma indústria de EPIs, atuando
+              diretamente com <strong>nota fiscal, boleto, cobrança, atendimento e documentação</strong>.
             </p>
             <p>
-              Apoio profissionais e pequenos negócios que precisam de ordem no dia a dia: documentos
-              espalhados, agenda cheia de conflitos, cobranças atrasadas e propostas sem resposta —
-              é aí que eu entro.
+              Sou formada em Gestão de Turismo, mas foi na prática, dentro de uma indústria, que
+              construí a experiência e a especialidade que ofereço hoje.
             </p>
             <p>
-              Minha função não é apenas executar tarefas, é criar processo — e te ajudar a ter mais
-              tempo para o que importa: fazer sua empresa crescer.
+              Meu aperfeiçoamento continua: atualmente, faço <strong>pós-graduação em RH</strong> e
+              desenvolvo experiência profissional na área de inteligência artificial, colaborando
+              remotamente com uma empresa internacional.
             </p>
             <p>
-              Uso um sistema próprio de organização pra colocar ordem na rotina de cada cliente: cada
-              nota fiscal, cada cobrança, cada prazo com um lugar certo — sem depender da minha memória,
-              e sem você precisar aprender uma ferramenta nova. Eu acompanho, organizo e aviso antes
-              de virar problema.
+              Para cada cliente, utilizo um <strong>painel próprio</strong>, desenvolvido
+              especificamente para essa rotina. Nele, organizo cadastro de clientes, contas a pagar
+              e a receber, agenda e documentos, mantendo o histórico de cada atendimento sempre
+              acessível.
             </p>
             <p>
-              Isso não substitui a conversa. Gosto de entender o negócio de quem atendo: ouço antes de
-              agir, pergunto quando tenho dúvida, aviso quando algo muda. É esse cuidado — não só o
-              sistema — que faz um cliente confiar a papelada da empresa dele pra mim.
-            </p>
-            <p>
-              O atendimento é próximo e limitado a poucos clientes por vez, justamente para manter a
-              qualidade e o cuidado com cada negócio.
+              O atendimento é próximo e limitado a poucos clientes por vez, com sigilo total sobre os
+              dados financeiros e documentos de cada negócio.
             </p>
           </div>
         </div>
         <img
           src={portraitWork}
-          alt="Mãos organizando documentos sobre uma mesa clara"
+          alt="Planner 2026 aberto sobre a mesa, ao lado do notebook e uma xícara de café"
           width={1008}
           height={1200}
           loading="lazy"

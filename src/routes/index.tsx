@@ -105,7 +105,7 @@ function Home() {
         <div className="relative">
           <img
             src={heroOffice}
-            alt="Mesa de trabalho organizada com notebook, pasta de documentos e caderno"
+            alt="Mesa de trabalho com notebook, luminária acesa e cadernos organizados"
             width={1408}
             height={1104}
             className="w-full object-cover"
@@ -134,6 +134,7 @@ function Home() {
         <h2 className="mt-4 max-w-2xl text-3xl sm:text-4xl">
           Quatro frentes de apoio, combinadas do jeito que o seu negócio precisa.
         </h2>
+        <p className="mt-2 text-sm text-muted-foreground">Sem CLT e sem encargos.</p>
         <div className="mt-12 grid gap-px bg-border sm:grid-cols-2 sm:grid-rows-2">
           {services.map((s) => (
             <article key={s.title} className="flex flex-col bg-background p-8">
@@ -157,7 +158,7 @@ function Home() {
       <section className="mx-auto grid max-w-6xl gap-12 px-5 pb-8 lg:grid-cols-[1fr_1.1fr] lg:items-center">
         <img
           src={portraitWork}
-          alt="Mãos organizando documentos e planner sobre mesa de linho"
+          alt="Planner 2026 aberto sobre a mesa, ao lado do notebook e uma xícara de café"
           width={1008}
           height={1200}
           loading="lazy"
