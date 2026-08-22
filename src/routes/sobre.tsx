@@ -101,7 +101,7 @@ function Sobre() {
 
       <div className="mt-16 border-t border-border pt-10">
         <p className="max-w-2xl font-display text-2xl leading-snug">
-          O que você deixou de vender, atender ou produzir essa semana por causa da papelada? E pensar que dava pra ter resolvido isso terceirizando — sem CLT, sem encargo, e ainda mais barato.
+          O que você deixou de vender, atender ou produzir essa semana por causa da papelada? E pensar que dava pra ter resolvido isso terceirizando.
         </p>
         <Link
           to="/contato"
