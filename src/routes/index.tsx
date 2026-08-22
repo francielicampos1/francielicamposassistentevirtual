@@ -61,13 +61,13 @@ const numbers = [
 function Home() {
   return (
     <>
-      <section className="mx-auto flex max-w-6xl justify-center px-5 py-14 sm:py-20 lg:py-28">
+      <section className="mx-auto flex max-w-6xl justify-center px-5 py-12 sm:py-14 lg:py-16">
         <img
           src={wordmark.url}
           alt="Francieli Campos — Assistente Administrativa Remota"
           width={900}
           height={220}
-          className="h-24 w-auto object-contain sm:h-36 md:h-44 lg:h-52"
+          className="h-28 w-auto object-contain sm:h-40 md:h-52 lg:h-72"
         />
       </section>
 
