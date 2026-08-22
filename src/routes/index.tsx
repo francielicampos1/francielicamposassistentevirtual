@@ -61,17 +61,17 @@ const numbers = [
 function Home() {
   return (
     <>
-      <section className="mx-auto flex max-w-6xl justify-center px-5 py-12 sm:py-16">
+      <section className="mx-auto flex max-w-6xl justify-center px-5 py-14 sm:py-20 lg:py-28">
         <img
           src={wordmark.url}
           alt="Francieli Campos — Assistente Administrativa Remota"
           width={900}
           height={220}
-          className="h-24 w-auto object-contain sm:h-28 lg:h-[120px]"
+          className="h-24 w-auto object-contain sm:h-36 md:h-44 lg:h-52"
         />
       </section>
 
-      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-4 lg:grid-cols-[1.05fr_1fr] lg:pb-24 lg:pt-6">
+      <section className="mx-auto grid max-w-6xl items-center gap-12 px-5 pb-16 pt-2 lg:grid-cols-[1.05fr_1fr] lg:pb-24 lg:pt-4">
         <div>
           <p className="eyebrow">Assistência administrativa remota</p>
           <h1 className="mt-5 text-4xl leading-[1.08] sm:text-5xl lg:text-6xl">
