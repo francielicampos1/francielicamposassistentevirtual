@@ -68,6 +68,17 @@ function Sobre() {
               tempo para o que importa: fazer sua empresa crescer.
             </p>
             <p>
+              Uso um sistema próprio de organização pra colocar ordem na rotina de cada cliente: cada
+              nota fiscal, cada cobrança, cada prazo com um lugar certo — sem depender da minha memória,
+              e sem você precisar aprender uma ferramenta nova. Eu acompanho, organizo e aviso antes
+              de virar problema.
+            </p>
+            <p>
+              Isso não substitui a conversa. Gosto de entender o negócio de quem atendo: ouço antes de
+              agir, pergunto quando tenho dúvida, aviso quando algo muda. É esse cuidado — não só o
+              sistema — que faz um cliente confiar a papelada da empresa dele pra mim.
+            </p>
+            <p>
               O atendimento é próximo e limitado a poucos clientes por vez, justamente para manter a
               qualidade e o cuidado com cada negócio.
             </p>
