@@ -107,8 +107,9 @@ function Home() {
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Cuido da parte administrativa que consome o seu dia — nota fiscal, cobranças,
-            atendimento, agendamentos — para que você se dedique ao que faz seu negócio crescer.
+            Assistência administrativa e virtual para MEIs, pequenos negócios e profissionais que
+            precisam de apoio no dia a dia — emissão de notas e boletos, cobranças, orçamentos,
+            documentos, atendimento, organização, redes sociais e agenda.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
