@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Briefcase, Building2, Clock, ListChecks, Smartphone } from "lucide-react";
 import wordmark from "../assets/logo-wordmark.png";
 import heroOffice from "../assets/hero-office.jpg";
 import portraitWork from "../assets/portrait-work.jpg";
@@ -30,9 +30,7 @@ export const Route = createFileRoute("/")({
         content: "https://francielicamposassistentevirtual.lovable.app/",
       },
     ],
-    links: [
-      { rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/" },
-    ],
+    links: [{ rel: "canonical", href: "https://francielicamposassistentevirtual.lovable.app/" }],
     scripts: [
       {
         type: "application/ld+json",
@@ -55,7 +53,35 @@ const numbers = [
   { value: "100%", label: "Atendimento remoto" },
   { value: "14 anos de experiência", label: "Sigilo e confiança para o seu negócio" },
   { value: "4", label: "Frentes de apoio" },
+];
 
+const fitCases = [
+  {
+    icon: Briefcase,
+    title: "Sou MEI e faço tudo sozinho",
+    description:
+      "Preciso emitir notas, organizar documentos, cobrar clientes e resolver tarefas administrativas.",
+  },
+  {
+    icon: Building2,
+    title: "Tenho uma pequena empresa, mas não tenho administrativo",
+    description: "As tarefas estão acumulando e eu preciso de alguém para cuidar delas.",
+  },
+  {
+    icon: Clock,
+    title: "Tenho um negócio, mas não tenho tempo",
+    description: "Preciso de ajuda com atendimento, agenda, orçamentos e organização.",
+  },
+  {
+    icon: Smartphone,
+    title: "Não consigo cuidar das redes sociais",
+    description: "Preciso manter minha presença online sem ter que fazer tudo sozinha.",
+  },
+  {
+    icon: ListChecks,
+    title: "Tenho muitas tarefas para organizar",
+    description: "Quero delegar atividades e ganhar tempo para focar no que realmente importa.",
+  },
 ];
 
 function Home() {
@@ -81,8 +107,8 @@ function Home() {
             </span>
           </h1>
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-            Cuido da parte administrativa que consome o seu dia — nota fiscal, cobranças, atendimento,
-            agendamentos — para que você se dedique ao que faz seu negócio crescer.
+            Cuido da parte administrativa que consome o seu dia — nota fiscal, cobranças,
+            atendimento, agendamentos — para que você se dedique ao que faz seu negócio crescer.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
@@ -117,9 +143,36 @@ function Home() {
         </div>
       </section>
 
+      <section className="mx-auto max-w-6xl px-5 pb-20">
+        <p className="eyebrow">Isso é pra você?</p>
+        <h2 className="mt-4 max-w-2xl text-3xl sm:text-4xl">
+          Você se encaixa em algum desses casos?
+        </h2>
+        <a
+          href="https://wa.me/5514988294067?text=Vim%20pelo%20site%20e%20queria%20saber%20mais%20sobre%20o%20apoio%20administrativo"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-8 inline-flex items-center gap-2 bg-foreground px-6 py-3 text-xs uppercase tracking-[0.16em] text-primary-foreground transition-opacity hover:opacity-90"
+        >
+          Quero ter esse suporte <ArrowRight className="size-4" />
+        </a>
+        <ul className="mt-12 grid gap-x-10 gap-y-10 sm:grid-cols-2">
+          {fitCases.map((c) => (
+            <li key={c.title} className="flex gap-5">
+              <span className="flex size-11 shrink-0 items-center justify-center bg-secondary text-primary">
+                <c.icon className="size-5" />
+              </span>
+              <div>
+                <h3 className="text-lg">{c.title}</h3>
+                <p className="mt-1 text-sm text-muted-foreground">{c.description}</p>
+              </div>
+            </li>
+          ))}
+        </ul>
+      </section>
+
       <section className="border-y border-border/70 bg-secondary/50">
         <div className="mx-auto grid max-w-6xl gap-8 px-5 py-10 text-center sm:grid-cols-3">
-
           {numbers.map((n) => (
             <div key={n.label}>
               <p className="font-display text-3xl">{n.value}</p>
@@ -138,7 +191,6 @@ function Home() {
         <div className="mt-12 grid gap-px bg-border sm:grid-cols-2 sm:grid-rows-2">
           {services.map((s) => (
             <article key={s.title} className="flex flex-col bg-background p-8">
-
               <p className="font-display text-2xl text-primary">{s.number}</p>
               <h3 className="mt-4 text-xl">{s.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{s.summary}</p>
